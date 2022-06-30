@@ -1,9 +1,9 @@
-<center>
+<p align="center">
 <a href="https://www.icmc.usp.br/">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Webysther_20170627_-_Logo_ICMC-USP.svg/2560px-Webysther_20170627_-_Logo_ICMC-USP.svg.png" alt="Instituto de Ciências Matemáticas e de Computação" width="150"/>
 </a>
 </br>
-</center>
+</p>
 
 # Fonte de tensão variável 3-12V
 
