@@ -13,21 +13,19 @@ Um projeto orientado pelo professor [Eduardo do Valle Simões](https://gitlab.co
 
 ## Participantes
 
-  - Miguel Bragante Henriques nUSP: 13671894
-  - Leonardo Ishida nUSP: 12873424
-  - Isaac Harim nUSP: 13673235
-  - Luiz Felipe nUSP: 13782032
+  - Isaac Harim - 13673235
+  - Leonardo Ishida - 12873424
+  - Luiz Felipe Diniz Costa - 13782032
+  - Miguel Bragante Henriques - 13671894
 
-To do block code segments, wrap a code tag in a pre tag:
+      
+## Componentes e cálculos
+Confira as informações no slide abaixo.
 
-      const codeSnippet = likeThis ? yes : no
+## Circuito no [Falstad](https://falstad.com/circuit/)
+O circuito começa na fonte, à esquerda, que aplica uma corrente alternada. Em seguida, a corrente passa pelo transformador, que reduz a tensão de entrada de 180V para 18,5V. Depois, passa pela ponte de diodo, responsável por deixar a corrente continua, isto é, sempre positiva. A corrente, após isso, passa pelo capacitor, que atua no ripple, diminuindo a variação da tensão, tornando-a mais constante. Por fim, a corrente chega no bloco final, onde há o diodo de zener, o potênciometro e o transistor. Nesse bloco, ocorre a filtração da voltagem nos 13V pelo diodo de zener e a variação entre 3V e 12V, que depende do potênciometro e do resistor de 2.2kΩ. 
 
-### Images
-
-To preview images here, you need to use a base64 URI string as the source. Unfortunately, this isn't supported by most code repositories and the source will need to be a relative path to a file in the repository. For example, "< img src="data:image/png;base64,iVBORw0K... />" is needed here but in a repository, would need to be something like "< img src="./< directory >/< file >.< ext >" >. A base64 example can be seen with the READMEGenerator logo at the top of this document.
-
-## Coming Soon
-
-Integrations with DropBox and other document repositories as well as exporting as HTML, Markdown, and PDF.
-
-Eventually we plan to allow saving multiple files for continued maintenance/edits as well as some more advanced features (a WYSIWYG editor, editor color preferences, etc.)
+## Circuito no Eagle
+No Eagle, temos a representação do circuito na vida real, ou seja, como é na placa. 
+## Fonte
+Imagens da fonte contruída pelo grupo. 
