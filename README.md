@@ -124,7 +124,30 @@ Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
 <img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/ponte%20de%20diodo.png?raw=true" alt="pontedediodo" width="500"/>
 </p>
 
+### Diodo de Zener
+Tem como objetivo retificar a onda de entrada, ou seja, transformar uma tensão de corrente alternada (CA) em uma tensão de corrente contínua (CC).
+Como os diodos precisam de uma tensão mínima de ativação, a tensão sofre uma perda. No nosso projeto, cada diodo consome, aproximadamente, 0,7V.
+Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
 
+</br>
+
+<table align="center">
+	<tbody>
+		<tr>
+			<td>Assim, a tensão mantém-se próxima dos 13V, o que facilitará o ajuste entre 3 e 12V.</td>
+			<td><img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/diododezenerl.png?raw=true" alt="pontedediodo" width="200"/></td>
+		</tr>
+	</tbody>
+</table>
+
+### Transistor
+
+Juntamente com o potenciômetro, e o diodo de zener, o transistor faz parte da função de regular a tensão e corrente na saída da fonte.
+Foi utilizado o modelo NPN, que é ativado quando há tensão no gate.
+
+<p align="center">
+<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/transitor.png?raw=true" alt="pontedediodo" width="200"/>
+</p>
 
 
 ## Circuito no [Falstad](https://falstad.com/circuit/)
