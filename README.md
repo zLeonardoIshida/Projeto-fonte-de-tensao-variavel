@@ -102,9 +102,8 @@ Cálculo da tensão de pico e cálculo da tensão transformada
 	</tbody>
 </table>
 
-<p>
-<h3>Potenciômetro</h3>
 
+### Potenciômetro
 
 - É, resumidamente, um resistor variável. 
 
@@ -113,8 +112,20 @@ Cálculo da tensão de pico e cálculo da tensão transformada
 - Usamos um potenciômetro de 5kΩ, que permite que a tensão varie de 3 a 12V, isto é, o valor proposto. 
 <p align="center">
 </br>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Webysther_20170627_-_Logo_ICMC-USP.svg/2560px-Webysther_20170627_-_Logo_ICMC-USP.svg.png" alt="Instituto de Ciências Matemáticas e de Computação" width="150"/>
+<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/potenciometro.png?raw=true" alt="Potenciometro" width="150"/>
+
+### Ponte de diodo
+Tem como objetivo retificar a onda de entrada, ou seja, transformar uma tensão de corrente alternada (CA) em uma tensão de corrente contínua (CC).
+Como os diodos precisam de uma tensão mínima de ativação, a tensão sofre uma perda. No nosso projeto, cada diodo consome, aproximadamente, 0,7V.
+Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
+
+</br>
+<p align="center">
+<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/ponte%20de%20diodo.png?raw=true" alt="pontedediodo" width="500"/>
 </p>
+
+
+
 
 ## Circuito no [Falstad](https://falstad.com/circuit/)
 O circuito começa na fonte, à esquerda, que aplica uma corrente alternada. Em seguida, a corrente passa pelo transformador, que reduz a tensão de entrada de 180V para 18,5V. Depois, passa pela ponte de diodo, responsável por deixar a corrente continua, isto é, sempre positiva. A corrente, após isso, passa pelo capacitor, que atua no ripple, diminuindo a variação da tensão, tornando-a mais constante. Por fim, a corrente chega no bloco final, onde há o diodo de zener, o potênciometro e o transistor. Nesse bloco, ocorre a filtração da voltagem nos 13V pelo diodo de zener e a variação entre 3V e 12V, que depende do potênciometro e do resistor de 2.2kΩ. 
