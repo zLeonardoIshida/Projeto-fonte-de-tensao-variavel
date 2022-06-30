@@ -27,11 +27,7 @@ Um projeto orientado pelo professor [Eduardo do Valle Simões](https://gitlab.co
 <table align="right">
 	<tbody>
 		<tr>
-<<<<<<< HEAD
 			<td><strong>VALORES (R$)</strong></td>
-=======
-			<td>VALORES (R$)</td>
->>>>>>> 0ec299579a404cff3c77aec04225517519195542
 		</tr>
 		<tr>
 			<td>-</td>
@@ -85,7 +81,7 @@ Um projeto orientado pelo professor [Eduardo do Valle Simões](https://gitlab.co
 </p>
 
 ### Trasformador
-Tem como objetivo transformar a diferença de potencial de pico de 179v, vinda da tomada, para uma tensão próxima de 18V.
+> Tem como objetivo transformar a diferença de potencial de pico de 179v, vinda da tomada, para uma tensão próxima de 18V.
 
 <p align="center">
 Cálculo da tensão de pico e cálculo da tensão transformada
@@ -106,7 +102,6 @@ Cálculo da tensão de pico e cálculo da tensão transformada
 	</tbody>
 </table>
 
-<<<<<<< HEAD
 <p>
 <h3>Potenciômetro</h3>
 
@@ -119,10 +114,6 @@ Cálculo da tensão de pico e cálculo da tensão transformada
 <p align="center">
 </br>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Webysther_20170627_-_Logo_ICMC-USP.svg/2560px-Webysther_20170627_-_Logo_ICMC-USP.svg.png" alt="Instituto de Ciências Matemáticas e de Computação" width="150"/>
-</p>
-
-=======
->>>>>>> 0ec299579a404cff3c77aec04225517519195542
 </p>
 
 ## Circuito no [Falstad](https://falstad.com/circuit/)
