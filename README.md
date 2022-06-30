@@ -6,8 +6,7 @@ Alunos:
   - Leonardo Ishida nUSP: 
   - Isaac Harim nUSP:
   - Luiz Felipe nUSP: 
-## Os componentes
+## Os componentes e nossos cálculos
 ## O circuito no Falstad
 ## O circuito no Eagle
-## Nossos cálculos
 ## A fonte em si
