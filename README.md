@@ -149,6 +149,9 @@ Foi utilizado o modelo NPN, que é ativado quando há tensão no gate.
 <img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/transitor.png?raw=true" alt="pontedediodo" width="200"/>
 </p>
 
+<h3 align="right">
+<a href="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/Apresenta%C3%A7%C3%A3o%20em%20Slides.pdf" target="_blank">Apresentação em Slides</a>
+</p>
 
 ## Circuito no [Falstad](https://falstad.com/circuit/)
 O circuito começa na fonte, à esquerda, que aplica uma corrente alternada. Em seguida, a corrente passa pelo transformador, que reduz a tensão de entrada de 180V para 18,5V. Depois, passa pela ponte de diodo, responsável por deixar a corrente continua, isto é, sempre positiva. A corrente, após isso, passa pelo capacitor, que atua no ripple, diminuindo a variação da tensão, tornando-a mais constante. Por fim, a corrente chega no bloco final, onde há o diodo de zener, o potênciometro e o transistor. Nesse bloco, ocorre a filtração da voltagem nos 13V pelo diodo de zener e a variação entre 3V e 12V, que depende do potênciometro e do resistor de 2.2kΩ. 
