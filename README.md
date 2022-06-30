@@ -27,7 +27,11 @@ Um projeto orientado pelo professor [Eduardo do Valle Simões](https://gitlab.co
 <table align="right">
 	<tbody>
 		<tr>
+<<<<<<< HEAD
 			<td><strong>VALORES (R$)</strong></td>
+=======
+			<td>VALORES (R$)</td>
+>>>>>>> 0ec299579a404cff3c77aec04225517519195542
 		</tr>
 		<tr>
 			<td>-</td>
@@ -102,6 +106,7 @@ Cálculo da tensão de pico e cálculo da tensão transformada
 	</tbody>
 </table>
 
+<<<<<<< HEAD
 <p>
 <h3>Potenciômetro</h3>
 
@@ -116,6 +121,8 @@ Cálculo da tensão de pico e cálculo da tensão transformada
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Webysther_20170627_-_Logo_ICMC-USP.svg/2560px-Webysther_20170627_-_Logo_ICMC-USP.svg.png" alt="Instituto de Ciências Matemáticas e de Computação" width="150"/>
 </p>
 
+=======
+>>>>>>> 0ec299579a404cff3c77aec04225517519195542
 </p>
 
 ## Circuito no [Falstad](https://falstad.com/circuit/)
