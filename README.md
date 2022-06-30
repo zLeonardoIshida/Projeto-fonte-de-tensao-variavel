@@ -20,7 +20,66 @@ Um projeto orientado pelo professor [Eduardo do Valle Simões](https://gitlab.co
 
   
 ## Componentes e cálculos
-Confira as informações no slide abaixo.
+
+<p>
+<h3>Peças utilizadas</h3>
+
+<table align="right">
+	<tbody>
+		<tr>
+			<td>VALORES (R$)</td>
+		</tr>
+		<tr>
+			<td>-</td>
+		</tr>
+		<tr>
+			<td>7,00 (1 unidade)</td>
+		</tr>
+		<tr>
+			<td>0,07 (1 unidade)</td>
+		</tr>
+		<tr>
+			<td>0,14 (2 unidades)</td>
+		</tr>
+		<tr>
+			<td>5,00 (5 unidades)</td>
+		</tr>
+		<tr>
+			<td>0,48 (1 unidade)</td>
+		</tr>
+		<tr>
+			<td>0,69 (1 unidade)</td>
+		</tr>
+		<tr>
+			<td>5,78 (1 unidade)</td>
+		</tr>
+		<tr>
+			<td>TOTAL:   19,16
+</td>
+		</tr>
+	</tbody>
+</table>
+
+</br>
+
+- Transformador
+
+- Potenciômetro de 5kΩ linear
+
+- Resistor de 2.2kΩ
+
+- Resistores de 1kΩ
+
+- Diodos N4004 + LED 
+
+- Diodo de Zener 13V 1W
+
+- Transistor NPN
+
+- Capacitor 680uF 25V
+</br>
+</p>
+
 ### Trasformador
 Tem como objetivo transformar a diferença de potencial de pico de 179v, vinda da tomada, para uma tensão próxima de 18V.
 
