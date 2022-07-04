@@ -156,18 +156,16 @@ Foi utilizado o modelo NPN, que é ativado quando há tensão no gate.
 ## Circuito no [Falstad](https://falstad.com/circuit/)
 O circuito começa na fonte, à esquerda, que aplica uma corrente alternada. Em seguida, a corrente passa pelo transformador, que reduz a tensão de entrada de 180V para 18,5V. Depois, passa pela ponte de diodo, responsável por deixar a corrente continua, isto é, sempre positiva. A corrente, após isso, passa pelo capacitor, que atua no ripple, diminuindo a variação da tensão, tornando-a mais constante. Por fim, a corrente chega no bloco final, onde há o diodo de zener, o potênciometro e o transistor. Nesse bloco, ocorre a filtração da voltagem nos 13V pelo diodo de zener e a variação entre 3V e 12V, que depende do potênciometro e do resistor de 2.2kΩ. 
 
+<p align="center">
+	<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/falstad.jpeg?raw=true" width="600">
+</p>
+
 ## Circuito no Eagle
 No Eagle, temos a representação do circuito na vida real, ou seja, como é na placa.
-
-
-<table align="center">
-	<tbody>
-		<tr>
-			<td><img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle1.jpeg?raw=true" width="600"></td>
-			<td><img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle2.jpeg?raw=true" width="400"></td>
-		</tr>
-	</tbody>
-</table>
+<p align="center">
+<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle2.jpeg?raw=true" width="400">
+<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle1.jpeg?raw=true" width="600">
+</p>
 
 ## Fonte
 Imagens da fonte contruída pelo grupo. 
