@@ -115,7 +115,7 @@ Cálculo da tensão de pico e cálculo da tensão transformada
 <img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/potenciometro.png?raw=true" alt="Potenciometro" width="150"/>
 
 ### Ponte de diodo
-Tem como objetivo retificar a onda de entrada, ou seja, transformar uma tensão de corrente alternada (CA) em uma tensão de corrente contínua (CC).
+Tem como objetivo retificar a onda de entrada, ou seja, transformar uma tensão de corrente alternada (CA) bifásica em uma tensão monofásica positiva.
 Como os diodos precisam de uma tensão mínima de ativação, a tensão sofre uma perda. No nosso projeto, cada diodo consome, aproximadamente, 0,7V.
 Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
 
@@ -125,9 +125,7 @@ Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
 </p>
 
 ### Diodo de Zener
-Tem como objetivo retificar a onda de entrada, ou seja, transformar uma tensão de corrente alternada (CA) em uma tensão de corrente contínua (CC).
-Como os diodos precisam de uma tensão mínima de ativação, a tensão sofre uma perda. No nosso projeto, cada diodo consome, aproximadamente, 0,7V.
-Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
+Tem como objetivo estabilizar a onda de entrada, ou seja, transformar uma tensão de corrente alternada (CA) em uma tensão de corrente contínua (CC). Como foi utilizado um diodo de zener 13v, a tensão de saída é de aproximadamente 13v
 
 </br>
 
@@ -143,7 +141,7 @@ Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
 ### Transistor
 
 Juntamente com o potenciômetro, e o diodo de zener, o transistor faz parte da função de regular a tensão e corrente na saída da fonte.
-Foi utilizado o modelo NPN, que é ativado quando há tensão no gate.
+Foi utilizado o modelo NPN, que é ativado quando há tensão no gate. Quando ativado, o transistor cria um caminho com menor resistência, facilitando a passagem de corrente, evitando, assim, que o diodo de zener queime devido à alta potência.
 
 <p align="center">
 <img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/transitor.png?raw=true" alt="pontedediodo" width="200"/>
@@ -153,7 +151,7 @@ Foi utilizado o modelo NPN, que é ativado quando há tensão no gate.
 <a href="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/Apresenta%C3%A7%C3%A3o%20em%20Slides.pdf" target="_blank">Apresentação em Slides</a>
 </p>
 
-## Circuito no [Falstad](https://falstad.com/circuit/)
+## Circuito no [Falstad](https://tinyurl.com/2p2beqe2)
 O circuito começa na fonte, à esquerda, que aplica uma corrente alternada. Em seguida, a corrente passa pelo transformador, que reduz a tensão de entrada de 180V para 18,5V. Depois, passa pela ponte de diodo, responsável por deixar a corrente continua, isto é, sempre positiva. A corrente, após isso, passa pelo capacitor, que atua no ripple, diminuindo a variação da tensão, tornando-a mais constante. Por fim, a corrente chega no bloco final, onde há o diodo de zener, o potênciometro e o transistor. Nesse bloco, ocorre a filtração da voltagem nos 13V pelo diodo de zener e a variação entre 3V e 12V, que depende do potênciometro e do resistor de 2.2kΩ. 
 
 <p align="center">
