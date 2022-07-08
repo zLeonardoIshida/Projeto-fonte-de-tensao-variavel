@@ -124,6 +124,20 @@ Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
 <img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/ponte%20de%20diodo.png?raw=true" alt="pontedediodo" width="500"/>
 </p>
 
+### Capacitor
+
+Para o cálculo da capacitância, escolhemos utilizar um ripple de aproximadamente 10%.
+
+C = (5 * 100mA) / (16,98 * 60hz)
+C = 490uF.
+
+> Foi utilizado um capacitor de 680uF no projeto por ausência de opções para compra.
+
+<p align="center">
+<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/ocapacitor.png?raw=true" alt="pontedediodo" width="350"/>
+</p>
+
+
 ### Diodo de Zener
 Tem como objetivo estabilizar a onda de entrada, ou seja, transformar uma tensão de corrente alternada (CA) em uma tensão de corrente contínua (CC). Como foi utilizado um diodo de zener 13v, a tensão de saída é de aproximadamente 13v
 
