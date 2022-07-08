@@ -174,10 +174,14 @@ O circuito começa na fonte, à esquerda, que aplica uma corrente alternada. Em 
 
 ## Circuito no Eagle
 No Eagle, temos a representação do circuito na vida real, ou seja, como é na placa.
-<p align="center">
-<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle2.jpeg?raw=true" width="400">
-<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle1.jpeg?raw=true" width="600">
-</p>
+<table align="center">
+	<tbody>
+		<tr>
+			<td><img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle.png?raw=true" width="500"/></td>
+			<td><img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/eagle2.jpeg?raw=true" width="500"/></td>
+		</tr>
+	</tbody>
+</table>
 
 ## Fonte
 Imagens da fonte contruída pelo grupo. 
