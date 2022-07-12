@@ -82,9 +82,7 @@ Um projeto orientado pelo professor [Eduardo do Valle Simões](https://gitlab.co
 
 <h3 align="right">
 <a href="https://drive.google.com/file/d/1a3A0B8s74iv0CGgqaLabeZvsFQzy62UY/view?usp=sharing" target="_blank">Vídeo em alta qualidade</a>
-</p>
-
-
+</h3>
 
 https://user-images.githubusercontent.com/61145881/178539236-c59955dd-37d5-49a4-91c3-56769cd9e9d1.MP4
 
