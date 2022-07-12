@@ -80,6 +80,14 @@ Um projeto orientado pelo professor [Eduardo do Valle Simões](https://gitlab.co
 </br>
 </p>
 
+<h3 align="right">
+<a href="https://drive.google.com/file/d/1a3A0B8s74iv0CGgqaLabeZvsFQzy62UY/view?usp=sharing" target="_blank">Vídeo em alta qualidade</a>
+</p>
+
+
+https://user-images.githubusercontent.com/61145881/178535523-330d8c5f-bcc1-4678-a7ef-ec26164d8852.MP4
+
+
 ### Trasformador
 > Tem como objetivo transformar a diferença de potencial de pico de 179v, vinda da tomada, para uma tensão próxima de 18V.
 
@@ -171,9 +179,6 @@ Foi utilizado o modelo NPN, que é ativado quando há tensão no gate. Quando at
 <a href="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/Apresenta%C3%A7%C3%A3o%20em%20Slides.pdf" target="_blank">Apresentação em Slides</a>
 </p>
 
-### Explicação por Vídeo
-
-[![Projeto](https://lh6.googleusercontent.com/PMqxY7GHIVfuyYfw81592yZindVoAh7ZY-h1jT_3kqG-fmstXUUvqdwrOaESx49Gz7FYzWjaPttUkgCUNIuE=w1920-h969-rw)](https://drive.google.com/file/d/1a3A0B8s74iv0CGgqaLabeZvsFQzy62UY/view?usp=sharing)
 
 ## Circuito no [Falstad](https://tinyurl.com/2gs8bmub)
 O circuito começa na fonte, à esquerda, que aplica uma corrente alternada. Em seguida, a corrente passa pelo transformador, que reduz a tensão de entrada de 180V para 18,5V. Depois, passa pela ponte de diodo, responsável por deixar a corrente continua, isto é, sempre positiva. A corrente, após isso, passa pelo capacitor, que atua no ripple, diminuindo a variação da tensão, tornando-a mais constante. Por fim, a corrente chega no bloco final, onde há o diodo de zener, o potênciometro e o transistor. Nesse bloco, ocorre a filtração da voltagem nos 13V pelo diodo de zener e a variação entre 3V e 12V, que depende do potênciometro e do resistor de 2.2kΩ. 
