@@ -128,9 +128,15 @@ Por estarem ligados em série, o consumo da tensão é de: 2 * 0,7 = 1,4V.
 
 Para o cálculo da capacitância, escolhemos utilizar um ripple de aproximadamente 10%.
 
-C = (5 * 100mA) / (16,98 * 60hz)
-C = 490uF.
+Vr =  Ve / 2fCR
 
+Ve = 18,3V
+i = 101,5mA
+
+10% Ve = Ve / 2fCR
+1,83 = 101,5/2 * 60C
+
+C = 462uF 
 > Foi utilizado um capacitor de 680uF no projeto por ausência de opções para compra.
 
 <p align="center">
