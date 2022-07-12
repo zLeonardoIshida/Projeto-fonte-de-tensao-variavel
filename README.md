@@ -177,7 +177,7 @@ Foi utilizado o modelo NPN, que é ativado quando há tensão no gate. Quando at
 </p>
 
 <h3 align="right">
-<a href="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/Apresenta%C3%A7%C3%A3o%20em%20Slides.pdf" target="_blank">Apresentação em Slides</a>
+<a href="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/Apresenta%C3%A7%C3%A3o%20do%20Projeto.pdf" target="_blank">Apresentação em Slides</a>
 </p>
 
 
