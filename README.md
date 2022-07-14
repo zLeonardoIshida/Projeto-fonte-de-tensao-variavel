@@ -197,5 +197,11 @@ No Eagle, temos a representação do circuito na vida real, ou seja, como é na 
 	</tbody>
 </table>
 
-## Fonte
-Imagens da fonte contruída pelo grupo. 
+## Fonte 
+
+<p align="center">
+<img src="https://github.com/zLeonardoIshida/Projeto-fonte-de-tensao-variavel/blob/main/readmeImagens/projeto%20da%20fonte.png?raw=true"  width="800"/>
+</p>
+
+
+
